@@ -116,7 +116,6 @@ void	manage_plan(char **tab, t_data *data, int split_count)
 	if (split_count != 4 && split_count != 5)
 		ft_error_exit("Error\nWrong file format : pl", data, tab);
 	new = gc_malloc(sizeof(t_plan), data);
-	ft_printf("hello\n");
 	manage_vectors(tab, &new->pos, data, 1);
 	manage_vectors(tab, &new->dir, data, 2);
 	if (new->dir.x > 1 || new->dir.y > 1 || new->dir.z > 1

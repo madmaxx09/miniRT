@@ -61,7 +61,7 @@ t_rgb	ray(t_vec origine, t_vec direction, int depth, t_data *data)
 {
 	t_hit	hit;
 	t_rgb	blend;
-	//double	pdf;
+	double	pdf;
 
 	blend = (t_rgb){0, 0, 0};
 	if (depth <= 0)
@@ -72,7 +72,8 @@ t_rgb	ray(t_vec origine, t_vec direction, int depth, t_data *data)
 				data->back_2, data->back_1));
 	if (hit.hitted == true && hit.mat == 3)
 		return (hit.obj_color);
-	//pdf = scatter_pdf(&hit);
+	pdf = scatter_pdf(&hit);
+	(void)pdf;
 	blend = mult_rgb(ray(hit.point,
 				hit.new_dir, depth - 1, data), hit.obj_color);
 	if (depth == MAX_DEPTH)

@@ -53,9 +53,10 @@ inline int	rgb_to_color(t_rgb rgb)
 	rgb.r = gamma_cor(clamp(rgb.r, 0.0, 0.999)) * 256;
 	rgb.g = gamma_cor(clamp(rgb.g, 0.0, 0.999)) * 256;
 	rgb.b = gamma_cor(clamp(rgb.b, 0.0, 0.999)) * 256;
-	color |= ((int)rgb.r & 0xFF) << 16;
-	color |= ((int)rgb.g & 0xFF) << 8;
-	color |= ((int)rgb.b & 0xFF);
+	color |= ((int)rgb.r & 0xFF) << 24;
+	color |= ((int)rgb.g & 0xFF) << 16;
+	color |= ((int)rgb.b & 0xFF) << 8;
+	color |= 0xFF;
 	return (color);
 }
 

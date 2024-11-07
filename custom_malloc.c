@@ -26,22 +26,15 @@ int	update_free_list(t_malloc **head, void *adress, t_data *data)
 		data->error_trigger = 1;
 		return (1);
 	}
-	printf("malloc\n");
 	newnode->adress = adress;
 	newnode->next = NULL;
-	printf("malloc\n");
 	if (*head == NULL)
 		*head = newnode;
 	else
 	{
 		temp = *head;
-		printf("malloc\n");
 		while (temp->next != NULL)
-		{	
-			printf("malloc\n");
 			temp = temp->next;
-		}
-		printf("malloc\n");
 		temp->next = newnode;
 	}
 	return (0);

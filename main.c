@@ -6,7 +6,7 @@
 /*   By: mdor <mdor@student.s19.be>                 +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/17 19:45:49 by mdor              #+#    #+#             */
-/*   Updated: 2024/11/05 23:10:28 by mdor             ###   ########.fr       */
+/*   Updated: 2024/11/07 10:39:42 by mdor             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,7 +53,6 @@ void	mlx_launch(t_data *data)
 	int	i;
 
 	i = -1;
-	//ft_printf("hello\n");
 	data->mlx = mlx_init(WIDTH, HEIGHT, "MiniRT", false);
 	if (data->mlx == NULL)
 		ft_error_exit("Error\nMlx init fail", data, NULL);
