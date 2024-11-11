@@ -23,3 +23,4 @@ This project met his purposes for my learning at 42 but I will probably comeback
 
 
 
+ps: this project syntax complies with the 42 norm (not more than 25 lines per function, not more than 4 arguments passed to a function, at most 5 functions per file,...) and even tho the 42 norm has its benefits to learn good syntax, I must say that for this project it just makes some functions a bit unreadable...
