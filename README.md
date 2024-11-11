@@ -1,12 +1,11 @@
 # miniRT
 
 How to use (works on linux and mac) :
-git clone this repo
-cd into it
-make
-./miniRT "config file"
-
-there is an example config file in examples/
+- git clone this repo
+- cd into it
+- make
+- ./miniRT "config file"
+- there is an example config file in examples/
 
 
 This project was made for learning purpose not for performance, in fact this raytracer runs on cpu and on a single thread.
