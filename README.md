@@ -27,7 +27,13 @@ This project met his purposes for my learning at 42 but I will probably comeback
 - work on the antialising part of the project
 
 Here are some rendered examples with a large sample of rays shot per pixel (some of these can take minutes to render)
+In this image you can see the 3 different shapes I implemented : spheres, planes, and cylinders(bare minimum to validate the project;)).
 <img width="497" alt="complex" src="https://github.com/user-attachments/assets/88ca8166-a97e-4bac-89c5-565b189f28e0">
+
+In this image we have 2 fully mirroring surfaces, and 2 additionnal light sources placed behind the camera
+
+<img width="500" alt="specular_multi_day" src="https://github.com/user-attachments/assets/88ce2b37-7406-48f2-a5a0-6f56ddf045d5">
+
 
 
 
