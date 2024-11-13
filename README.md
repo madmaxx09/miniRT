@@ -7,7 +7,7 @@ How to use (works on linux and mac) :
 - ./miniRT "config file"
 - there is an example config file in examples/
 
-On linux you might have to download the GLFW library
+On linux you will need to download the GLFW library
 - sudo apt-get update
 - sudo apt-get install libglfw3
 - sudo apt-get install libglfw3-dev
