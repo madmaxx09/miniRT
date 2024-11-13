@@ -35,6 +35,10 @@ In this image we have 2 fully mirroring surfaces, and 2 additionnal light source
 
 <img width="500" alt="specular_multi_day" src="https://github.com/user-attachments/assets/88ce2b37-7406-48f2-a5a0-6f56ddf045d5">
 
+The same scene by night
+
+<img width="497" alt="specular_multi_dark" src="https://github.com/user-attachments/assets/bcb5f9bf-de35-4f42-80de-22c7a1df227b">
+
 A scene with a single light source
 
 <img width="498" alt="moonlight" src="https://github.com/user-attachments/assets/021509ea-1b7c-4f3f-92e4-38713f590f54">
