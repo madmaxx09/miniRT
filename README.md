@@ -7,6 +7,11 @@ How to use (works on linux and mac) :
 - ./miniRT "config file"
 - there is an example config file in examples/
 
+On linux you might have to download the GLFW library
+- sudo apt-get update
+- sudo apt-get install libglfw3
+- sudo apt-get install libglfw3-dev
+
 
 This project was made for learning purpose not for performance, in fact this raytracer runs on cpu and on a single thread.
 Could not have made this project without this ressource https://raytracing.github.io/ (raytracing in one weekend series).
@@ -20,6 +25,9 @@ This project met his purposes for my learning at 42 but I will probably comeback
 - Adding bounding volume hierarchy
 - Having a bigger sample of rays bouncing towards light sources
 - work on the antialising part of the project
+
+Here are some rendered examples with a large sample of rays shot per pixel (some of these can take minutes to render)
+<img width="497" alt="complex" src="https://github.com/user-attachments/assets/88ca8166-a97e-4bac-89c5-565b189f28e0">
 
 
 
