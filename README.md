@@ -43,7 +43,7 @@ A scene with a single light source
 
 <img width="498" alt="moonlight" src="https://github.com/user-attachments/assets/021509ea-1b7c-4f3f-92e4-38713f590f54">
 
-The same scene with only 10 rays shot per pixel (the above is 2000)
+For comparison this is the same scene with only 10 rays shot per pixel (the above is 2000)
 
 <img width="496" alt="low spp" src="https://github.com/user-attachments/assets/8b14ea25-fe97-49fd-8108-dc6d7b4fb9ad">
 
