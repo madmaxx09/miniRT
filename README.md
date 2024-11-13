@@ -27,6 +27,10 @@ This project met his purposes for my learning at 42 but I will probably comeback
 - work on the antialising part of the project
 
 Here are some rendered examples with a large sample of rays shot per pixel (some of these can take minutes to render)
+First lets take a look at the different "materials" 
+
+<img width="497" alt="materials" src="https://github.com/user-attachments/assets/9ba1ee58-d640-4b00-857e-c9a726964897">
+
 In this image you can see the 3 different shapes I implemented : spheres, planes, and cylinders(bare minimum to validate the project;)).
 
 <img width="497" alt="complex" src="https://github.com/user-attachments/assets/88ca8166-a97e-4bac-89c5-565b189f28e0">
