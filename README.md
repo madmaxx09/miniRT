@@ -26,7 +26,8 @@ This project met his purposes for my learning at 42 but I will probably comeback
 - Having a bigger sample of rays bouncing towards light sources
 - work on the antialising part of the project
 
-Here are some rendered examples with a large sample of rays shot per pixel (some of these can take minutes to render)
+Here are some rendered examples with a large sample of rays shot per pixel (some of these can take minutes to render).
+
 First lets take a look at the different type of "materials". From left to right, at the leftmost we have the lambertian material this material lets the ray bounce randomly on its surface giving it this simple opaque look. Afterwards we have "metal" with a variable amount of fuziness.
 
 <img width="497" alt="materials" src="https://github.com/user-attachments/assets/9ba1ee58-d640-4b00-857e-c9a726964897">
