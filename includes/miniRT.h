@@ -6,7 +6,7 @@
 /*   By: mdor <mdor@student.s19.be>                 +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/18 13:56:16 by mdor              #+#    #+#             */
-/*   Updated: 2024/11/07 12:02:50 by mdor             ###   ########.fr       */
+/*   Updated: 2024/11/13 19:09:23 by mdor             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,10 +28,10 @@
 # include "mymath.h"
 # define WIDTH 1000
 # define HEIGHT 750.0
-# define MAX_DEPTH 10
-# define SAMPLE 200
-# define DENOISE_PASS 1
-# define DENOISE_SIGMA 0.5
+# define MAX_DEPTH 5 //amount of bounces per ray
+# define SAMPLE 10 //number of ray shots per pixel
+# define DENOISE_PASS 1 //number of passes of the final image in the denoising function
+# define DENOISE_SIGMA 0.5 //the strength of the denoising 0 (weak : pixelised) 1 (strong : blurry) 
 # define DENOISE_SAMPLE 2.0
 # define BLACK_TRESHHOLD 0.8
 # define SQUARE_SIDE 5.0
