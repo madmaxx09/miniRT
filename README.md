@@ -7,7 +7,7 @@ How to use (works on linux and mac) :
 - ./miniRT "config file"
 - there is an example config file in examples/
 
-If you want to change the amount ray shots per pixel, the amount of bounces of each ray, or the denoising setting you can do that in includes/miniRT.h then make re
+If you want to change the amount ray shots per pixel, the amount of bounces of each ray, or the denoising settings you can do that in includes/miniRT.h then make re
 
 On linux you will need to download the GLFW library
 - sudo apt-get update
