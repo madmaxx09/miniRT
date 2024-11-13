@@ -43,6 +43,11 @@ A scene with a single light source
 
 <img width="498" alt="moonlight" src="https://github.com/user-attachments/assets/021509ea-1b7c-4f3f-92e4-38713f590f54">
 
+The same scene with only 10 rays shot per pixel (the above is 2000)
+
+<img width="496" alt="low spp" src="https://github.com/user-attachments/assets/8b14ea25-fe97-49fd-8108-dc6d7b4fb9ad">
+
+
 
 
 ps: this project syntax complies with the 42 norm (not more than 25 lines per function, not more than 4 arguments passed to a function, at most 5 functions per file,...) and even tho the 42 norm has its benefits to learn good syntax, I must say that for this project it just makes some functions a bit unreadable...
