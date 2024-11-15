@@ -1,0 +1,40 @@
+#A is the ambiant light brightness from 0.0 -> 1.0 and rgb value
+#the ambiant light is only used if there is no background (B)
+A   0.0   255,255,255
+#B is the background it take to colors and blends them together top to bottom
+#the first rgb value is top and the second is bottom 
+#for example this combo is a blue sky 
+B 128,179,255   255,255,255
+#C is the camera position, first vector is the position
+#second vector has each value ranged from 0 to one 1 and is the direction
+#towards which the camera points and last is the FOV 0 -> 179
+C   0,0,50   0,0,1   45
+#the 3 values above can be set only once
+
+
+#pl is for planes first value is a point in the plane
+#second is a 3d normalized normal vector each value [0.0, 1.0]
+#last is rgb 
+pl  0,-7,0  0,1,0 250,050,050
+#cy is for cylinders first is position
+#second is a 3d normalized normal vector each value [0.0, 1.0]
+#third is diameter
+#fourth is height
+#last is rgb
+cy  0,12,0   0,1,0   6.0 10.0 50,150,250
+#sp is for spheres
+#first is center
+#second is diameter
+#third is rgb
+sp  0,0,0  10 250,220,050
+##!!! all shapes (sp, cy, pl) have there material set by default to lambertian
+# but you can add (optionnal) a last param to each to make them metally
+# from 0.0 (mirror) to 1.0 (very fuzzy)
+
+
+#L is light sources they will be spheres (you can add multiples)
+#first arg is center
+#second is brightness
+#third is rgb
+#fourth(optionnal is diamater, default is 1)
+L 1,2,-3 0.9 255,255,255
