@@ -27,6 +27,7 @@ This project met his purposes for my learning at 42 but I will probably comeback
 - Adding bounding volume hierarchy
 - Having a bigger sample of rays bouncing towards light sources
 - work on the antialising part of the project
+- multithreading
 
 Here are some rendered examples with a large sample of rays shot per pixel (some of these can take minutes to render).
 
